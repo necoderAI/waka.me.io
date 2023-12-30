@@ -24,20 +24,20 @@ body {
 }
 
 h1 {
-    font-size: 3rem; /* Adjust the font size */
-    background-image: linear-gradient(to right, #ff6ac1, #ff00ff); /* Neon pink gradient */
+    font-size: 3rem;
+    background-image: linear-gradient(to right, #ff6ac1, #ff00ff);
     -webkit-background-clip: text;
     color: transparent;
     text-shadow: 0 0 10px rgba(255, 106, 193, 0.8), 0 0 20px rgba(255, 106, 193, 0.8);
-    animation: neonGlow 2s linear infinite alternate; /* Animation for color change */
+    animation: neonGlow 2s linear infinite alternate;
 }
 
 @keyframes neonGlow {
     from {
-        filter: hue-rotate(0deg);
+        filter: hue-rotate(300deg);
     }
     to {
-        filter: hue-rotate(360deg);
+        filter: hue-rotate(420deg);
     }
 }
 
